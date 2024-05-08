@@ -73,13 +73,7 @@
         <!-- Plugin do compilador Maven -->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.11.0</version>
-            <configuration>
-			    <release>17</release>
-                <source>17</source> <!-- Versão do Java que você está usando -->
-                <target>17</target> <!-- Versão do Java que você está usando -->
-            </configuration>
+            <artefatoId> spring-boot-maven-plugin </artefatoId>
         </plugin>
     </plugins>
 </build>
