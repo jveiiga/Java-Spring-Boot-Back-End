@@ -60,10 +60,9 @@ public class Categoria implements Serializable {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        // if (!(o instanceof Categoria categoria)) return false; <--- Java 17
-        Categoria categoria = (Categoria) o;
-
+        if (!(o instanceof Categoria categoria)) return false;
+        // if (o == null || getClass() != o.getClass()) return false;
+        // Categoria categoria = (Categoria) o;
         return Objects.equals(id, categoria.id);
     }
 

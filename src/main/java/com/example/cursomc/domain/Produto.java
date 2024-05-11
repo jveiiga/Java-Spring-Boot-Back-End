@@ -107,9 +107,9 @@ public class Produto implements Serializable {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Produto)) return false;
-        // if (!(o instanceof Produto produto)) return false; <---- Java 17
-        Produto produto = (Produto) o;
+        if (!(o instanceof Produto produto)) return false; 
+        // if (!(o instanceof Produto)) return false;
+        // Produto produto = (Produto) o;
         return Objects.equals(id, produto.id);
     }
 
