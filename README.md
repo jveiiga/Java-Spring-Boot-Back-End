@@ -1,4 +1,11 @@
-# Projeto: E-Commerce Fullstack com Java e Spring Boot
+<h1>Projeto: E-Commerce Fullstack com Java e Spring Boot<h1/>
+
+### Diagramação
+- **Diagrama de Classes**
+![diagrama-de-classes](https://github.com/user-attachments/assets/ffb937eb-9521-4a4c-a6d7-d88f0e51c143)
+
+- **Diagrama de Objetos**
+![diagrama-de-objetos](https://github.com/user-attachments/assets/72d5794b-d0b9-4a46-ad0a-1404cda54559)
 
 ## Visão Técnica - Back-End
 
